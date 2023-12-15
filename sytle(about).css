@@ -1,0 +1,200 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+.main{
+    width: 100%;
+    height: 70px;
+    background-color :rgba(255,255,255,1);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.logo{
+    width: 200px;
+    height:10px;
+    float: auto;
+    
+}
+.icon{
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    float:left;
+    position: absolute;
+    left:10px;
+}
+.l1{
+    position:absolute;
+    top:0;
+    left:175px;
+    width: 90px;
+    height:70px;
+    overflow: hidden;
+}
+ul{
+    margin-left: 50px;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 200px;
+   
+}
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: rgb(80, 78, 78);
+    background-color: white;
+    height: 50px;
+    position: absolute;
+    top:0;
+    line-height: 70px;
+    
+}
+ul li a:hover{
+    background-color: rgb(32, 155, 203);
+    color: black;
+    text-decoration: none;
+    position: absolute ;
+    top: 0;
+    height:70px;
+    width: 140px;
+    text-align: center;
+   
+}
+.login li a{
+    position:absolute;
+    top:10px;
+    left: 1070px;
+    height:50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid  rgb(14, 14, 56);
+    width:130px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family:Cambria;
+}
+.login li a:active{
+    background-color: rgb(14, 14, 56);
+    color: white;
+}
+.signup li a{
+    position:absolute;
+    top:10px;
+    left: 1210px;
+    height:52px;
+    background-color: rgb(14, 14, 56);
+    color: white;
+    width:130px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family:Cambria;
+}
+.signup li a:active{
+    background-color: white;
+    color:black;
+    border: 2px solid  rgb(14, 14, 56);
+}
+h2{
+    font-size: 60px;
+    font-family:Verdana;
+    position: absolute;
+    top:100px;
+    left:290px;
+    color: white;
+}
+.slog{
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    text-align: center;
+    top: 220px;
+    left:50px;
+    right:50px;
+}
+.down{
+    width: 1290px;
+    height: 300px;
+    position: absolute;
+    top:400px;
+    right:100px;
+    left:50px;
+    background-color: rgba(255,255,255,0.6);
+}
+.down1{
+    width:250px;
+    height:350px;
+    position: absolute;
+    left:30px;
+    top:20px;
+    background-color:rgba(14, 14, 56,0.9);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.paris{
+    width:100px;
+    height:100px;
+    position: absolute;
+    left :80px;
+    top:20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.down2{
+    width:250px;
+    height:350px;
+    position: absolute;
+    left:290px;
+    top:20px;
+    background-color:rgba(14, 14, 56,0.9);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.down3{
+    width:250px;
+    height:350px;
+    position: absolute;
+    left: 550px;
+    top:20px;
+    background-color:rgba(14, 14, 56,0.9);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.down4{
+    width:250px;
+    height: 350px;
+    position: absolute;
+    left:810px;
+    top:20px;
+    background-color:rgba(14, 14, 56,0.9);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.down5{
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    left:1070px;
+    font-family:'Franklin Gothic Medium';
+}
+.word1{
+    color: white;
+    font-size: 15px;
+    font-family:Cambria;
+    position: absolute;
+    left: 5px;
+    top:110px;
+    right: 5px;
+}
